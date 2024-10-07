@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,8 +12,22 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0; /* Un poco más de espacio para que el header sea más visible */
     text-align: center;
+    position: relative; /* El header mantiene su posición normal */
+    z-index: 999;
+}
+
+nav {
+    position: sticky; /* Esto hará que el nav sea pegajoso */
+    top: 0; /* Cuando se haga scroll, el nav se pegará a la parte superior */
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+    text-align: center;
+    margin: 0; /* Para eliminar cualquier espacio adicional debajo del header */
 }
 
 nav a {
@@ -19,7 +37,28 @@ nav a {
 }
 
 section {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease, visibility 1s ease;
+    height: 0;
+    overflow: hidden;
     padding: 20px;
+    margin-bottom: 60px;
+}
+
+/* Mostrar la sección seleccionada con una transición suave */
+section:target {
+    opacity: 1;
+    visibility: visible;
+    height: auto; /* Cuando está visible, la sección recupera su tamaño normal */
+}
+
+/* Mostrar la primera sección por defecto cuando no hay ningún target seleccionado */
+#about {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    height: auto;
 }
 
 h1, h2 {
