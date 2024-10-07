@@ -1,18 +1,16 @@
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #F9F9F9; /* Fondo claro */
     padding-bottom: 60px;
 }
 
 header {
-    background-color: #333;
+    background-color: #007ACC; /* Azul suave para el encabezado */
     color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     padding: 20px 0;
     text-align: center;
     position: relative;
@@ -24,7 +22,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #007ACC; /* Mantén el azul para la navegación */
     padding: 10px 0;
     z-index: 1000;
     text-align: center;
@@ -37,23 +35,26 @@ nav a {
     text-decoration: none;
 }
 
-section {
-    padding: 20px;
-    margin-bottom: 60px;
+h1, h2 {
+    color: #333; /* Títulos en gris oscuro para buen contraste */
 }
 
-h1{
-    color: #333;
-}
-h2{
-    color: #333;
-    padding: 20px;
+h2 {
+    padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    margin-bottom: 5px;
 }
+
+section {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff; /* Fondo blanco para secciones */
+}
+
 .project {
     background-color: #fff;
-    padding: 15px;
+    padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -62,27 +63,74 @@ h2{
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #007ACC; /* Mismo color de encabezado */
     color: #fff;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-
 /* Estilos para la sección about */
 .about-content {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    gap: 20px; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
     flex-direction: row-reverse;
 }
-
 /* Estilos para la imagen de perfil */
 .profile-pic {
     width: 150px;
     height: auto;
-    border-radius: 50%; 
+    border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilo para el boton de impresión */
+.print-btn {
+    background-color: #4CAF50; /* Verde suave para el botón de acción */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.print-btn:hover {
+    background-color: #45a049;
+}
+
+/* Colores para enlaces */
+a {
+    color: #0056b3; /* Azul oscuro para enlaces */
+}
+
+@media print {
+    /* Ocultar elementos no deseados en la impresión */
+    .print-btn {
+        display: none;
+    }
+    #print-page{
+        display: none;
+    }
+
+    nav, footer {
+        display: none; /* Ocultar navegación y pie de página */
+    }
+
+    body {
+        font-size: 12pt;
+        font-family: 'Times New Roman', Times, serif; 
+    }
+
+    section {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        margin: 0;
+    }
+    h1,h2,h3 {
+        margin: 0;
+    }
+}
