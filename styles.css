@@ -2,16 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F9F9F9; /* Fondo claro */
-    padding-bottom: 60px;
+    background-color: #F9F9F9;
+    padding-bottom: 4rem; /* Using rem for spacing */
+    font-size: 1rem; /* Base font size */
 }
 
 header {
-    background-color: #007ACC; /* Azul suave para el encabezado */
+    background-color: #007ACC;
     color: #fff;
     font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-    padding: 20px 0;
+    font-size: 1.5rem; /* Font size in rem */
+    padding: 2rem 0; /* Padding in rem */
     text-align: center;
     position: relative;
     z-index: 999;
@@ -22,8 +23,8 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #007ACC; /* Mantén el azul para la navegación */
-    padding: 10px 0;
+    background-color: #007ACC;
+    padding: 1rem 0; /* Padding in rem */
     z-index: 1000;
     text-align: center;
     margin: 0;
@@ -31,96 +32,111 @@ nav {
 
 nav a {
     color: #fff;
-    margin: 0 15px;
+    margin: 0 1rem; /* Using rem for spacing */
     text-decoration: none;
 }
 
 h1, h2 {
-    color: #333; /* Títulos en gris oscuro para buen contraste */
+    color: #333;
 }
 
 h2 {
-    padding: 10px;
+    padding: 1rem; /* Padding in rem */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem; /* Using rem for spacing */
 }
 
 section {
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #fff; /* Fondo blanco para secciones */
+    padding: 1rem; /* Padding in rem */
+    margin-bottom: 1rem; /* Using rem for spacing */
+    background-color: #fff;
 }
 
 .project {
     background-color: #fff;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 1rem; /* Padding in rem */
+    margin: 1rem 0; /* Using rem for spacing */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #007ACC; /* Mismo color de encabezado */
+    padding: 1rem; /* Padding in rem */
+    background-color: #007ACC;
     color: #fff;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-/* Estilos para la sección about */
+
 .about-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 2rem; /* Using rem for spacing */
     flex-direction: row-reverse;
 }
-/* Estilos para la imagen de perfil */
+
 .profile-pic {
-    width: 150px;
+    width: 10rem; /* Width in rem, responsive */
     height: auto;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo para el boton de impresión */
 .print-btn {
-    background-color: #4CAF50; /* Verde suave para el botón de acción */
+    background-color: #4CAF50;
     color: white;
-    padding: 10px 20px;
+    padding: 1rem 2rem; /* Using rem for button padding */
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem; /* Using rem for button font size */
 }
 
 .print-btn:hover {
     background-color: #45a049;
 }
 
-/* Colores para enlaces */
 a {
-    color: #0056b3; /* Azul oscuro para enlaces */
+    color: #0056b3;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    header, nav, footer {
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    h1, h2 {
+        font-size: 1.2rem; /* Smaller font size on small screens */
+    }
+
+    .profile-pic {
+        width: 8rem; /* Smaller profile picture */
+    }
 }
 
 @media print {
-    /* Ocultar elementos no deseados en la impresión */
     .print-btn {
         display: none;
     }
-    #print-page{
+    #print-page {
+        display: none;
+    }
+    #projects {
         display: none;
     }
 
     nav, footer {
-        display: none; /* Ocultar navegación y pie de página */
+        display: none; /* Hide navigation and footer */
     }
 
     body {
         font-size: 12pt;
-        font-family: 'Times New Roman', Times, serif; 
+        font-family: 'Times New Roman', Times, serif;
     }
 
     section {
@@ -130,7 +146,7 @@ a {
     header {
         margin: 0;
     }
-    h1,h2,h3 {
+    h1, h2, h3 {
         margin: 0;
     }
 }
