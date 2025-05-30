@@ -1,209 +1,327 @@
-    <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Fabián Andres Fernández Castiblanco</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <h1>Fabián Fernández</h1>
-            <p>Estudiante Ingeniería Catastral y Geodesia</p>
-            <nav>
-                <a href="#about">Perfil</a>
-                <a href="#experence">Experiencia</a>
-                <a href="#formacion">Formación</a>
-                <a href="#projects">Proyectos</a>
-                <a href="#references">Referencias</a>
-                <a href="#contact">Contacto</a>
-            </nav>
-        </header>
+<!DOCTYPE html>
+<html lang="es">
 
-        <section id="about">
-            <h2>Perfil</h2>
-            <div class="about-content">
-                <!-- Imagen de perfil -->
-                <img src="images/foto.jpg" alt="Foto de Fabián Fernández" class="profile-pic">
-                
-                <!-- Información sobre mí -->
-                <div class="project">
-                    <p>Actualmente curso el décimo semestre de Ingeniería Catastral y Geodesia.
-                    Tengo experiencia en el manejo de software GIS, como ArcGIS y QGIS, así
-                    como en software de diseño, como AutoCAD, en diversas versiones. 
-                    Poseo conocimientos intermedios en la conceptualización de estructuras 
-                    de datos espaciales y programación, utilizando lenguajes como Python y JavaScript,
-                    enfocados en el desarrollo de proyectos de gestión de información geográfica y catastral.
-                    Además, tengo experiencia en la gestión de bases de datos, utilizando administradores como 
-                    PgAdmin con PostgreSQL.
-                    Me destaco en el análisis y resolución de problemas, con un enfoque en la obtención de 
-                    resultados rápidos y de fácil implementación.</p>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fabián Andres Fernández Castiblanco</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Fabián Fernández</a>
+            <a class="navbar-brand" href="#">Ing. Catastrla y Geodesta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">Perfil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formacion">Formación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#references">Referencias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenedor principal -->
+    <div class="container my-5">
+        <!-- PERFIL -->
+        <section id="about" class="mb-5">
+            <h2 class="mb-4">Perfil</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="images/foto.jpg" alt="Foto de Fabián Fernández" class="img-fluid rounded-circle mb-3"
+                        style="max-width: 250px" />
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Actualmente curso el décimo semestre de Ingeniería Catastral y Geodesia.
+                        Tengo experiencia en el manejo de software GIS, como ArcGIS y QGIS, así
+                        como en software de diseño, como AutoCAD, en diversas versiones.
+                        Poseo conocimientos intermedios en la conceptualización de estructuras
+                        de datos espaciales y programación, utilizando lenguajes como Python y JavaScript,
+                        enfocados en el desarrollo de proyectos de gestión de información geográfica y catastral.
+                        Además, tengo experiencia en la gestión de bases de datos, utilizando administradores como
+                        PgAdmin con PostgreSQL.
+                        Me destaco en el análisis y resolución de problemas, con un enfoque en la obtención de
+                        resultados rápidos y de fácil implementación.
+                    </p>
                 </div>
             </div>
         </section>
-        <!--Formación academica-->
-        <section id="formacion">
-            <h2>Formación Académica</h2>
-            <div class="project">
-                <h3>Bachiller Académico, 2018</h3>
-                <p>Graduado del Colegio San isidro Sur Oriental I.E. en el año 2018 
-                    en donde bajo la modalidad de media fortalecida se llevaron a cabo 
-                    cursos dictados por la Universidad Nacional con enfoque en 
-                    Cálculo, Robótica y Gestión de Poryectos.
-                </p>
-            </div>
-            <div class="project">
-                <h3>Ingenieria Catastral y Geodesia, 2019-Actualidad</h3>
-                <p>
-                    Actualmente cursando materias de último semestre en la Carrera de
-                    Ingenieria Catastral y Geodesia en la Universidad Distriral Francisco José
-                    de Caldas en la facultad de Ingeniería.
-                </p>
-            </div>
-            <div class="project">
-                <h3>Curso Reconocedor Predial Urbano Rural, 2022</h3>
-                <p>
-                    Con una duración de de 40 horas de acuerdo a los programas del Instituto
-                    Geografico Agustín Codazzi.
-                </p>
-            </div>
-            <div class="project">
-                <h3>Desafio SIG desde cero Biodiversidad y Medio Ambiente, 2023 </h3>
-                <p>
-                    Introducción al Modelado de Nicho Ecológico y Geoportales, Análisis visual de 
-                    imagenes e indices espectrales con Google Earth Engine, Arcgis y QGis y
-                    Analisis, exploratorio de datos (EDA) con R, Multitemporal de la deforestación.
-                </p>
-            </div>
-            <div class="project">
-                <h3>Curso Reconocedor Predial Urbano Rural para procesos de Conservación Catastral, 2024</h3>
-                <p>
-                    Con una duración de de 40 horas de acuerdo a los programas del Instituto
-                    Geografico Agustín Codazzi.
-                </p>
-            </div>
-        </section>
-        
 
-        <section id="experence">
-            <h2>Experencia Laboral</h2>
-            <div class="project">
-                <h3>Auxiliar de Cartografía</h3>
-                <p>Desde Marzo 2023 hasta Junio 2023 <br>
-                    Como contratista desarrollé cartografía tanto base como temática utilizando el software ArcGIS,
-                    empleando aerofotografías a escala 1:25000. Mi enfoque principal fue crear bases 
-                    cartográficas a nivel municipal, lo que implicó compilar y ensamblar información 
-                    geoespacial para asegurar la precisión y la integridad de los mapas generados.<br>
-                    <a href="#References1">Referencia Laboral 1.</a>
-                </p>
+        <!-- FORMACIÓN -->
+        <section id="formacion" class="mb-5">
+            <h2 class="mb-4">Formación Académica</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Bachiller Académico, 2018</h5>
+                            <p class="card-text">
+                                Graduado del Colegio San Isidro Sur Oriental I.E. en 2018, modalidad media fortalecida
+                                con cursos de
+                                la Universidad Nacional en Cálculo, Robótica y Gestión de Proyectos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Ingeniería Catastral y Geodesia, 2019-Actualidad</h5>
+                            <p class="card-text">
+                                Actualmente cursando materias de último semestre en la Universidad Distrital Francisco
+                                José de Caldas,
+                                Facultad de Ingeniería.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Curso Reconocedor Predial Urbano Rural, 2022</h5>
+                            <p class="card-text">
+                                Duración de 40 horas conforme a los programas del Instituto Geográfico Agustín Codazzi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Desafío SIG desde cero Biodiversidad y Medio Ambiente, 2023</h5>
+                            <p class="card-text">
+                                Introducción al Modelado de Nicho Ecológico y Geoportales, análisis visual con Google
+                                Earth Engine, ArcGIS y QGIS, y análisis exploratorio de datos con R.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Curso Reconocedor Predial Urbano Rural para procesos de Conservación
+                                Catastral, 2024</h5>
+                            <p class="card-text">
+                                Duración de 40 horas conforme a los programas del Instituto Geográfico Agustín Codazzi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="project">
-                <h3>Auxiliar en Topografía</h3>
-                <p> Desde Agosto 2022 hasta Febrero 2023 </p>
-                <p>
-                    Como contratista en apoyo en la elaboración de planos topográficos y la generación de modelos digitales 
-                    de terreno. Contribuí en la preparación y organización de los equipos y materiales
-                    necesarios para los trabajos de campo, así como en la posterior compilación y 
-                    procesamiento de los datos recolectados.<br>
-                    <a href="#References2">Referencia Laboral 2.</a> 
-                </p>
-            </div>
-            <div class="project">
-                <h3>Pasante en INGICAT en Proyectos de Catastro de Infraestructura y Saneamiento Juridico de predios para ECOPETROL </h3>
-                <p> Desde Abril 2024 hasta la Actualidad</p>
-                <p>
-                    Como pasante en Ingeniería, Gestión Inmobiliaria Y Catastro S.A.S se llevo a cabo el proyecto
-                    Sistema Integrado de Información Jurídica y Geográfica par Proyectos de Catastro de Infraestructura
-                    y Saneamiento Jurídico de ECOPETROL. Desarrollando labores como Modelo conceptual de la base de
-                    datos de Depósitos Judiciales, la Revisión y Depuración de áreas de servidumbre de los predios con
-                    Depósitos Judiciales y la Implementación de las validaciones lógicas para la base de datos 
-                    de Depósitos Judiciales. Así como tambien la validación y corrección de las geometrías de la Base de 
-                    Datos Espacial de las infraestructuras petroleras de los campos de Rubiales y Caño Sur.<br>
-                    <a href="#References3">Referencia Laboral 3.</a> 
-                </p>
-            </div>
-            <div class="project">
-                <h3>Ejecutor Integral</h3>
-                <p>Desde Agosto 2024 hasta Actualidad</p>
-                <p>
-                    Como contratista para la empresa ENINCO S.A desarrollo de labores de reconocimiento Predial
-                    en Proyecto de Conservación Castastral para el municipio de Zipaquira, realizando tareas de revisión
-                    de documentos jurídicos, análisis y modificaciones en la base catastral, tanto a nivel alfanumérico como
-                    espacial y generando informes de notificación por mutación en la base. Ademas, llevando a cabo labores 
-                    en conjunto con el equipo de Tecnología para el mantenimiento de aplicativos de gestión de la información
-                    Catastral.<br>
-                    <a href="#References4">Referencia Laboral 4</a> 
-                </p>
-
-            </div>
-        </section>
-        <section id="projects">
-            <h2>Proyectos</h2>
-            <div class="project">
-                <h3>Aplicativo para la Gestión de la Información Catastral</h3>
-                <p>Consiste en el desarrollo de un aplicativo de escritorio 
-                    para computador y un visor web para  el menejo y 
-                    monitoreo de información Catastral de los predios con depósitos
-                    judiciales, la cual se desarrollo en el margen de la pasantía
-                    para mi proyecto de grado.<br>En este proyecto se evidencia el 
-                    manejo que tengo de las diferentes disciplinas tales como las bases de Datos,
-                    el desarrollo de API's y el desarrollo web geoespacial. 
-                    <a href="#contact">Para mas información</a> 
-                </p>
-            </div>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/eF7ift2Bv1A?si=EnOj_m24qdHAf8kt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </section>
-        
-        <section id="references">
-            <h2>Referencias Laborales</h2>
-            <div class="project">
-                <h3 id="References1" title="Referencia Laboral 1">Ing. Jeimy Diaz</h2>
-                <p>Jefa Directa<br>
-                    Quien asignaba y validaba todas las entregas realizadas en el desarrollo de las actividades.
-                </p>
-                <p>Email: <a href="mailto:jeimyalejandra.0711@gmail.com">jeimyalejandra.0711@gmail.com</a></p>
-                <p>Teléfono: <a href="https://wa.me/573219843623" >(+57) 321 9843623</a></p>
-            </div>
-            <div class="project">
-                <h3 id="References2" title="Referencia Laboral 2">Ing. Fabian Sanabria</h2>
-                <p>Jefe Directo<br>
-                    Quien asignaba y validaba todas las entregas realizadas en el desarrollo de las actividades
-                </p>
-                <p>Email: <a href="mailto:fadasavi@gmail.com">fadasavi@gmail.com</a></p>
-                <p>Teléfono: <a href="https://wa.me/573209334585" >(+57) 320 9334585</a></p>
-            </div>
-            <div class="project">
-                <h3 id="References3" title="Referencia Laboral 3">Ing. Oscar Giraldo</h2>
-                <p>Gerente de Ingenieria, Gestión Inmobiliaria y Catastro S.A.S y Director Externo de Pasantia</p>
-                <p>Email: <a href="mailto:oscar.giraldo.santos@outlook.com">oscar.giraldo.santos@outlook.com</a></p>
-                <p>Teléfono: <a href="https://wa.me/573102011838">(+57) 310 2011838</a></p>
-            </div>
-            <div class="project">
-                <h3 id="References4" title="Referencia Laboral 4">Ing. Juliana Forero</h2>
-                <p>Directora de Poyecto de Conservación Catastral, ENINCO S.A</p>
-                <p>Email: <a href="mailto:juliana.forero@eninco.com.co">juliana.forero@eninco.com.co</a></p>
-                <p>Teléfono: <a href="https://wa.me/573193842662">(+57) 319 3842662</a></p>
-            </div>
-        </section>
-        <section id="print-page">
-            <h2>Hoja de Vida en formato PDF</h2>
-            <button class="print-btn" onclick="window.print()">Hoja de Vida en PDF</button>
-        </section>
-        
-
-        <section id="contact">
-            <h2>Contacto</h2>
-            <p>Email: <a href="mailto:ffabianandres34@gmail.com">ffabianandres34@gmail.com</a></p>
-            <p>Teléfono: <a href="https://wa.me/573142008771" >314 2008771</a></p>
-            <p>LinkedIn: <a href="#">Perfil de LinkedIn</a></p>
         </section>
 
-        <footer>
-            <p>&copy; 2024 Fabián Fernández. Todos los derechos reservados.</p>
-        </footer>
+        <!-- EXPERIENCIA -->
+        <section id="experience" class="mb-5">
+            <h2 class="mb-4">Experiencia Laboral</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Auxiliar de Cartografía</h5>
+                            <p class="card-text">
+                                Marzo 2023 - Junio 2023<br />
+                                Como contratista desarrollé cartografía base y temática con ArcGIS,
+                                usando aerofotografías escala 1:25000 y creando bases cartográficas municipales.
+                            </p>
+                            <a href="#References1" class="card-link">Referencia Laboral 1</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Auxiliar en Topografía</h5>
+                            <p class="card-text">
+                                Agosto 2022 - Febrero 2023<br />
+                                Apoyo en planos topográficos, modelos digitales de terreno y trabajo de campo.
+                            </p>
+                            <a href="#References2" class="card-link">Referencia Laboral 2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Pasante en INGICAT</h5>
+                            <p class="card-text">
+                                Abril 2024 - Actualidad<br />
+                                Proyecto de Catastro y Saneamiento Jurídico para ECOPETROL. Modelado de base de datos,
+                                validación de áreas de servidumbre y geometrías espaciales.
+                            </p>
+                            <a href="#References3" class="card-link">Referencia Laboral 3</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Ejecutor Integral</h5>
+                            <p class="card-text">
+                                Agosto 2024 - Actualidad<br />
+                                Reconocimiento predial para Conservación Catastral en Zipaquira, gestión de datos
+                                catastrales y soporte en aplicaciones.
+                            </p>
+                            <a href="#References4" class="card-link">Referencia Laboral 4</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <script src="scripts.js"></script>
-    </body>
-    </html>
+        <!-- PROYECTOS -->
+        <section id="projects" class="mb-5">
+            <h2 class="mb-4">Proyectos</h2>
+            <div class="card shadow-sm mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Aplicativo para la Gestión de la Información Catastral</h5>
+                    <p class="card-text">
+                        Desarrollo de aplicativo de escritorio y visor web para monitoreo de información catastral de
+                        predios con depósitos judiciales, proyecto de grado.
+                        Manejo de bases de datos, desarrollo de APIs y desarrollo web geoespacial.
+                        <a href="#contact">Más información</a>
+                    </p>
+                </div>
+            </div>
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/eF7ift2Bv1A?si=EnOj_m24qdHAf8kt" title="YouTube video player"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- REFERENCIAS -->
+        <section id="references" class="mb-5">
+            <h2 class="mb-4">Referencias Laborales</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm" id="References1" title="Referencia Laboral 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Ing. Jeimy Diaz</h5>
+                            <p>Jefa Directa, asignaba y validaba entregas.</p>
+                            <p>Email: <a href="mailto:jeimyalejandra.0711@gmail.com">jeimyalejandra.0711@gmail.com</a>
+                            </p>
+                            <p>Teléfono: <a href="https://wa.me/573219843623">(+57) 321 9843623</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm" id="References2" title="Referencia Laboral 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Ing. Fabian Sanabria</h5>
+                            <p>Jefe Directo, asignaba y validaba entregas.</p>
+                            <p>Email: <a href="mailto:fadasavi@gmail.com">fadasavi@gmail.com</a>
+                            </p>
+                            <p>Teléfono: <a href="https://wa.me/573209334585">(+57) 320 9334585</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm" id="References3" title="Referencia Laboral 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Ing. Ing. Oscar Giraldo</h5>
+                            <p>Gerente de Ingenieria, Gestión Inmobiliaria y Catastro S.A.S y Director Externo de
+                                Pasantia</p>
+                            <p>Email: <a
+                                    href="mailto:oscar.giraldo.santos@outlook.com">oscar.giraldo.santos@outlook.com</a>
+                            </p>
+                            <p>Teléfono: <a href="https://wa.me/57310 2011838">(+57) 310 2011838</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm" id="References4" title="Referencia Laboral 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Ing. Juliana Forero</h5>
+                            <p>Directora de Poyecto de Conservación Catastral, ENINCO S.A</p>
+                            <p>Email: <a href="mailto:juliana.forero@eninco.com.co">juliana.forero@eninco.com.co</a>
+                            </p>
+                            <p>Teléfono: <a href="https://wa.me/573193842662">(+57) 319 3842662</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contact" class="mb-5">
+            <h2 class="mb-4">Contacto</h2>
+            <p>
+                Correo electrónico: <a href="mailto:ffabianandres34@gmail.com">ffabianandres34@gmail.com</a><br />
+                Teléfono: <a href="https://wa.me/573142008771" target="_blank" rel="noopener noreferrer">(+57)
+                    3142008771</a><br />
+                Ciudad: Bogotá, Colombia
+            </p>
+        </section>
+    </div>
+    <!-- Incluye Marked desde un CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        async function generarPDF() {
+            try {
+                const response = await fetch('hoja_vida.md');
+                if (!response.ok) throw new Error("No se pudo cargar el archivo Markdown.");
+                const md = await response.text();
+                const html = marked.parse(md);
+
+                const frame = document.getElementById('print-frame');
+
+                // Evita que el evento se dispare antes de tiempo
+                frame.onload = () => {
+                    frame.contentWindow.focus();
+                    frame.contentWindow.print();
+                };
+
+                const doc = frame.contentDocument || frame.contentWindow.document;
+                doc.open();
+                doc.write(`
+                <html>
+                <head>
+                    <link rel="stylesheet" href="cv-style.css">
+                    <style>
+                        @media print {
+                            body {
+                                margin: 2cm;
+                                font-family: 'Arial', sans-serif;
+                                color: black;
+                            }
+                        }
+                    </style>
+                </head>
+                <body>
+                    ${html}
+                </body>
+                </html>
+            `);
+                doc.close();
+            } catch (error) {
+                alert("Error generando la hoja de vida: " + error.message);
+            }
+        }
+    </script>
+
+    <!-- Botón para imprimir -->
+    <button onclick="generarPDF()">Imprimir Hoja de Vida Académica</button>
+
+    <!-- Iframe oculto para impresión -->
+    <iframe id="print-frame" style="display: none;"></iframe>
+
+    <!-- Bootstrap JS Bundle CDN (Popper + Bootstrap JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
