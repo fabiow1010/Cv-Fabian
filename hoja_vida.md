@@ -21,7 +21,7 @@ Me destaco en el análisis y resolución de problemas, con un enfoque en la obte
 - Auxiliar en Cartografía, Sub-Contratación Jeimy Diaz, Marzo 2023 - Junio 2023  
 - Auxiliar en Topografía, Sub-Contratación Fabian Sanabria, Agosto 2022 - Febrero 2023  
 - Pasante de Ingeniería,Ingenieria Gestión Predial y Catastro-INGICAT S.A , Abril 2024 – Abril 2025
-- Contratista, ejecutor Catastral,ENINCO S.A, Agosto 2025 - Abril 2025
+- Contratista, Ejecutor Integral en Conservación,ENINCO S.A, Agosto 2025 - Abril 2025
 - Contratista, Digitalziador 2D, Intituto Geográfico AGustin Cidazzui, Marzo 2025 - Actualidad
 
 ## Proyectos
