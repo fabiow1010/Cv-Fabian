@@ -1,4 +1,5 @@
 # Fabian Andres Fernandez Castiblanco
+Estudiante Ing.Catastral y Geodesia.
 ## Información de contacto
 - **Correo**: ffabianandres34@gmail.com  
 - **Teléfono**: +57 314 2008771
@@ -14,7 +15,7 @@ Me destaco en el análisis y resolución de problemas, con un enfoque en la obte
 - **Bachiller Académico**, Colegio San Isidro Sur Oriental I.E.D, 2018  
 - **Ingeniería Catastral y Geodesia**, Universidad Distrital Francisco Jose de Caldas, 2025  
 - **Curso Reconocedor Predial Urbano Rural**, Instituto Geográfico Agustín Codazzi 2022
-- **Curso Reconocedor Predial Urbano Rural para procesos de conservacion catastral**, Instituto Geográfico Agustín Codazzi,  2022
+- **Curso Reconocedor Predial Urbano Rural para procesos de conservacion catastral**, Instituto Geográfico Agustín Codazzi,  2024
 
 ## Experiencia laboral
 - Auxiliar en Cartografía, Sub-Contratación Jeimy Diaz, Marzo 2023 - Junio 2023  
@@ -27,7 +28,7 @@ Me destaco en el análisis y resolución de problemas, con un enfoque en la obte
 1. Sistema para la Gestión de la Información Catastral, SIICA.
 2. Aplicativo web para la Gestión Docuemtal.
 3. Pluggin Qgis para el análisis de redes.
-4. Análisis y ajuste de librerías de GNSSTK pra su uso en la actualidad. 
+4. Análisis y ajuste de librerías de GNSSTK para su uso en la procesamiento de datos GNSS. 
 
 ## Idiomas
 - Español: Nativo  
