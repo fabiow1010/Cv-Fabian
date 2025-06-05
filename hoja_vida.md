@@ -1,6 +1,9 @@
-# Fabian Andres Fernandez Castiblanco+
-Estudiante de Ing. Catastral y Geodesia
-![Foto](images/foto.jpg)
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <h1 style="margin: 0;">Fabian Andres Fernandez Castiblanco</h1>
+  <img src="images/foto.jpg" alt="Foto de Fabian" style="width: 120px; border-radius: 8px; margin-left: 20px;" />
+</div>
+
+
 ## Información de contacto
 - **Correo**: ffabianandres34@gmail.com  
 - **Teléfono**: +57 314 2008771
