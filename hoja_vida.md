@@ -1,4 +1,6 @@
 # Fabian Andres Fernandez Castiblanco
+Estudiante de Ing. Catastral y Geodesia
+![Foto](images/foto.jpg)
 ## Información de contacto
 - **Correo**: ffabianandres34@gmail.com  
 - **Teléfono**: +57 314 2008771
@@ -27,7 +29,7 @@ Me destaco en el análisis y resolución de problemas, con un enfoque en la obte
 1. Sistema para la Gestión de la Información Catastral, SIICA.
 2. Aplicativo web para la Gestión Docuemtal.
 3. Pluggin Qgis para el análisis de redes.
-4. Análisis y ajuste de librerías de GNSSTK pra su uso en la actualidad. 
+4. Análisis y ajuste de librerías de GNSSTK para su uso en la actualidad. 
 
 ## Idiomas
 - Español: Nativo  
