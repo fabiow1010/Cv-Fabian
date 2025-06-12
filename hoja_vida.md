@@ -28,7 +28,7 @@ Me destaco en el análisis y resolución de problemas, con un enfoque en la obte
 - Auxiliar en Topografía, Sub-Contratación Fabian Sanabria, Agosto 2022 - Febrero 2023  
 - Pasante de Ingeniería,Ingenieria Gestión Predial y Catastro-INGICAT S.A , Abril 2024 – Abril 2025
 - Contratista, Ejecutor Integral en Conservación,ENINCO S.A, Agosto 2025 - Abril 2025
-- Contratista, Digitalziador 2D, Intituto Geográfico AGustin Cidazzui, Marzo 2025 - Actualidad
+- Contratista, Digitalziador 2D y 3D, Intituto Geográfico AGustin Cidazzi, Marzo 2025 - Actualidad
 
 ## Proyectos
 1. Sistema para la Gestión de la Información Catastral, SIICA.
@@ -44,7 +44,9 @@ Me destaco en el análisis y resolución de problemas, con un enfoque en la obte
 3. Ing. Ing. Oscar Giraldo
    Gerente de Ingenieria, Gestión Inmobiliaria y Catastro S.A.S y Director Externo de Pasantia.
 4. Ing. Juliana Forero
-   Directora de Poyecto de Conservación Catastral, ENINCO S.A
+   Directora de Poyecto de Conservación Catastral, ENINCO S.A.
+5. Ing. David Riveros
+   Coordinador Proyecto ColSmart, Intituto Geográfico AGustin Cidazzi. 
 ## Idiomas
 - Español: Nativo  
 - Inglés: Intermedio (B2)
