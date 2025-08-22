@@ -14,6 +14,8 @@ Actualmente curso el décimo semestre de Ingeniería Catastral y Geodesia.
 Tengo experiencia en el manejo de software GIS, como ArcGIS y QGIS, así como en software de diseño, como AutoCAD, en diversas versiones.
 Poseo conocimientos intermedios en la conceptualización de estructuras de datos espaciales y programación, utilizando lenguajes como Python y JavaScript, enfocados en el desarrollo de proyectos de gestión de información geográfica y catastral. Cuento tambien con experiencia en la gestión de bases de datos, utilizando administradores como PgAdmin en esquemas de PostgreSQL; Así como el análisis de datos en software cientifico como R, Rstudio, Mathlab y Jupyter Notebook.
 Me destaco en el análisis y resolución de problemas, con un enfoque en la obtención de resultados rápidos y de fácil implementación.
+He tenido la oprtunidad de poner en practica mis habilidaddes en proyectos reales de
+Conservación catastral, Catastro y Saneamiento Jurídico, y Digitalización de Información Catastral, en los municipios de Zipaquirá y Chía.
 
 ## Formación académica
 - **Ingeniería Catastral y Geodesia**, Universidad Distrital Francisco Jose de Caldas, 2025 
