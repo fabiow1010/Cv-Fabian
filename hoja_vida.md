@@ -27,9 +27,10 @@ Me destaco en el análisis y resolución de problemas, con un enfoque en la obte
 - Auxiliar en Cartografía, Sub-Contratación Jeimy Diaz, Marzo 2023 - Junio 2023  
 - Auxiliar en Topografía, Sub-Contratación Fabian Sanabria, Agosto 2022 - Febrero 2023  
 - Pasante de Ingeniería,Ingenieria Gestión Predial y Catastro-INGICAT S.A , Abril 2024 – Abril 2025
-- Contratista, Ejecutor Integral en Conservación,ENINCO S.A, Agosto 2025 - Abril 2025
-- Contratista, Digitalziador 2D y 3D, Intituto Geográfico AGustin Cidazzi, Marzo 2025 - Actualidad
-
+- Contratista, Ejecutor Integral en Conservación,ENINCO S.A, Agosto 2024 - Abril 2025
+- Contratista, Digitalziador 2D y 3D, Instituto Geográfico AGustin Codazzi, Marzo 2025 - Junio 2025
+- Contratista, Ejecutor Integral en Conservación,Instituto Geográfico AGustin Codazzi, Junio 2025 - Actualidad.
+ 
 ## Proyectos
 1. Sistema para la Gestión de la Información Catastral, SIICA.
 2. Aplicativo web para la Gestión Docuemtal.
@@ -47,6 +48,7 @@ Me destaco en el análisis y resolución de problemas, con un enfoque en la obte
    Directora de Poyecto de Conservación Catastral, ENINCO S.A.
 5. Ing. David Riveros
    Coordinador Proyecto ColSmart, Intituto Geográfico AGustin Cidazzi. 
+
 ## Idiomas
 - Español: Nativo  
 - Inglés: Intermedio (B2)
