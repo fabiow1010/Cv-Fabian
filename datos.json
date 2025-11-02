@@ -1,0 +1,189 @@
+{
+	"schemaVersion": "1.0",
+	"generatedAt": "2025-11-02T00:00:00Z",
+	"experience": [
+		{
+			"id": "exp1",
+			"title": "Auxiliar de Cartografía",
+			"start": "2023-03",
+			"end": "2023-06",
+			"description": "Como contratista desarrollé cartografía base y temática con ArcGIS, usando aerofotografías escala 1:25000 y creando bases cartográficas municipales.",
+			"referenceId": "ref1"
+		},
+		{
+			"id": "exp2",
+			"title": "Auxiliar en Topografía",
+			"start": "2022-08",
+			"end": "2023-02",
+			"description": "Apoyo en planos topográficos, modelos digitales de terreno y trabajo de campo.",
+			"referenceId": "ref2"
+		},
+		{
+			"id": "exp3",
+			"title": "Pasante en INGICAT",
+			"start": "2024-04",
+			"end": "Present",
+			"description": "Proyecto de Catastro y Saneamiento Jurídico para ECOPETROL. Modelado de base de datos, validación de áreas de servidumbre y geometrías espaciales.",
+			"referenceId": "ref3"
+		},
+		{
+			"id": "exp4",
+			"title": "Ejecutor Integral",
+			"start": "2024-08",
+			"end": "2025-04",
+			"description": "Reconocimiento predial para Conservación Catastral en Zipaquira, gestión de datos catastrales y soporte en aplicaciones.",
+			"referenceId": "ref4"
+		},
+		{
+			"id": "exp5",
+			"title": "Digitalizador 2D y 3D",
+			"start": "2024-03",
+			"end": "2025-06",
+			"description": "Digitalización de información catastral y geográfica, ajustando bases de datos catastrales espaciales.",
+			"referenceId": "ref5"
+		},
+		{
+			"id": "exp6",
+			"title": "Ejecutor Integral",
+			"start": "2024-06",
+			"end": "Present",
+			"description": "Reconocimiento predial para Conservación Catastral en Chía, gestión de datos catastrales y diligenciamiento de mutaciones a petición de usuarios tras el proceso de actualización.",
+			"referenceId": "ref4"
+		}
+	],
+	"projects": [
+		{
+			"id": "proj1",
+			"title": "Aplicativo para la Gestión de la Información Catastral",
+			"description": "Desarrollo de aplicativo de escritorio y visor web para monitoreo de información catastral de predios con depósitos judiciales. Manejo de bases de datos, desarrollo de APIs y desarrollo web geoespacial.",
+			"repo": "https://github.com/fabiow1010/BASES",
+			"videoId": null
+		},
+		{
+			"id": "proj2",
+			"title": "Demo en video",
+			"description": "Video demostración del proyecto (visor / walkthrough).",
+			"repo": null,
+			"videoId": "eF7ift2Bv1A"
+		},
+		{
+			"id": "proj3",
+			"title": "Aplicativo web para la Gestión Documental",
+			"description": "Desarrollo de aplicativo web para monitoreo de documentos asociados a los predios con depósitos judiciales. Manejo de bases de datos, desarrollo de APIs y desarrollo web.",
+			"repo": "https://github.com/fabiow1010/INGICAT",
+			"videoId": null
+		},
+		{
+			"id": "proj4",
+			"title": "Plugin de QGIS para el análisis de redes",
+			"description": "Plugin de QGIS enfocado en el análisis de redes, cobertura de servicio y de utilidad.",
+			"repo": "https://github.com/fabiow1010/plugin_analisis_redes",
+			"videoId": null
+		},
+		{
+			"id": "proj5",
+			"title": "Análisis y ajuste de librerías GNSSTK",
+			"description": "Análisis de librerías MIT para procesamiento de datos GNSS y creación de contenedores Docker para reproducibilidad en entornos modernos.",
+			"repo": "https://github.com/fabiow1010/gnsstk",
+			"videoId": null
+		}
+	],
+	"education": [
+		{
+			"id": "edu1",
+			"title": "Bachiller Académico",
+			"institution": "Colegio San Isidro Sur Oriental I.E.",
+			"start": "2018",
+			"end": "2018",
+			"description": "Modalidad media fortalecida con cursos de la Universidad Nacional en Cálculo, Robótica y Gestión de Proyectos."
+		},
+		{
+			"id": "edu2",
+			"title": "Ingeniería Catastral y Geodesia",
+			"institution": "Universidad Distrital Francisco José de Caldas",
+			"start": "2019",
+			"end": "Present",
+			"description": "Actualmente cursando materias de último semestre en la Facultad de Ingeniería."
+		},
+		{
+			"id": "edu3",
+			"title": "Curso Reconocedor Predial Urbano Rural",
+			"institution": "Instituto Geográfico Agustín Codazzi",
+			"start": "2022",
+			"end": "2022",
+			"description": "Duración de 40 horas conforme a los programas del IGAC."
+		},
+		{
+			"id": "edu4",
+			"title": "Desafío SIG desde cero - Biodiversidad y Medio Ambiente",
+			"institution": null,
+			"start": "2023",
+			"end": "2023",
+			"description": "Introducción al Modelado de Nicho Ecológico y Geoportales; análisis visual con Google Earth Engine, ArcGIS y QGIS; análisis exploratorio con R."
+		},
+		{
+			"id": "edu5",
+			"title": "Curso Reconocedor Predial Urbano Rural (Conservación Catastral)",
+			"institution": "Instituto Geográfico Agustín Codazzi",
+			"start": "2024",
+			"end": "2024",
+			"description": "Duración de 40 horas conforme a los programas del IGAC."
+		}
+	],
+	"references": [
+		{
+			"id": "ref1",
+			"name": "Ing. Jeimy Diaz",
+			"role": "Jefa Directa",
+			"notes": "Asignaba y validaba entregas.",
+			"email": "jeimyalejandra.0711@gmail.com",
+			"phone": "+573219843623",
+			"whatsapp": "https://wa.me/573219843623"
+		},
+		{
+			"id": "ref2",
+			"name": "Ing. Fabian Sanabria",
+			"role": "Jefe Directo",
+			"notes": "Asignaba y validaba entregas.",
+			"email": "fadasavi@gmail.com",
+			"phone": "+573209334585",
+			"whatsapp": "https://wa.me/573209334585"
+		},
+		{
+			"id": "ref3",
+			"name": "Ing. Oscar Giraldo",
+			"role": "Gerente de Ingeniería, Gestión Inmobiliaria y Catastro S.A.S",
+			"notes": "Director Externo de Pasantía.",
+			"email": "oscar.giraldo.santos@outlook.com",
+			"phone": "+573102011838",
+			"whatsapp": "https://wa.me/573102011838"
+		},
+		{
+			"id": "ref4",
+			"name": "Ing. Juliana Forero",
+			"role": "Directora de Proyecto de Conservación Catastral, ENINCO S.A",
+			"notes": "",
+			"email": "juliana.forero@eninco.com.co",
+			"phone": "+573193842662",
+			"whatsapp": "https://wa.me/573193842662"
+		},
+		{
+			"id": "ref5",
+			"name": "Ing. David Riveros",
+			"role": "Coordinador Proyecto ColSmart, Instituto Geográfico Agustín Codazzi",
+			"notes": "",
+			"email": "david.rivero@igac.gov.co",
+			"phone": "+573173606231",
+			"whatsapp": "https://wa.me/573173606231"
+		},
+		{
+			"id": "ref6",
+			"name": "Ing. Cristian Rodriguez",
+			"role": "Coordinador de Reconocimiento de Conservación, Instituto Geográfico Agustín Codazzi",
+			"notes": "",
+			"email": "cristian.rodruigez@igac.gov.co",
+			"phone": "+573204753264",
+			"whatsapp": "https://wa.me/573204753264"
+		}
+	]
+}
