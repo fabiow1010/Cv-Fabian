@@ -31,8 +31,10 @@ Conservación catastral, Catastro y Saneamiento Jurídico, y Digitalización de 
 - Pasante de Ingeniería,Ingenieria Gestión Predial y Catastro-INGICAT S.A , Abril 2024 – Abril 2025
 - Contratista, Ejecutor Integral en Conservación,ENINCO S.A, Agosto 2024 - Abril 2025
 - Contratista, Digitalziador 2D y 3D, Instituto Geográfico AGustin Codazzi, Marzo 2025 - Junio 2025
-- Contratista, Ejecutor Integral en Conservación,Instituto Geográfico AGustin Codazzi, Junio 2025 - Actualidad.
- 
+- Contratista, Reconocedor Integral en Conservación,Instituto Geográfico AGustin Codazzi, Junio 2025 - Diciembre 2025.
+- Contratista, Reconocedor Integral en Procesos de Actualizacion, ENINCO S.A, Diciembre 2025 - Febrero  15 de 2026
+- Contratista, Reconocedor Integral en Procesos de Actualizacion, ENINCO S.A, Febrero 15 2026 - Junio 30 de 2026
+
 ## Proyectos
 1. Sistema para la Gestión de la Información Catastral, SIICA.
 2. Aplicativo web para la Gestión Docuemtal.
@@ -50,6 +52,8 @@ Conservación catastral, Catastro y Saneamiento Jurídico, y Digitalización de 
    Directora de Poyecto de Conservación Catastral, ENINCO S.A.
 5. Ing. David Riveros
    Coordinador Proyecto ColSmart, Intituto Geográfico AGustin Cidazzi. 
+6. Ing. Ingrid Cifuentes 
+   Gerente Proyecto Actualizacion, ENINCO S.A
 
 ## Idiomas
 - Español: Nativo  

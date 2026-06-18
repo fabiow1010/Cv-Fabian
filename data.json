@@ -1,0 +1,173 @@
+{
+  "personal": {
+    "nombre": "Fabian Andres Fernandez Castiblanco",
+    "titulo": "Ing. Catastral y Geodesta",
+    "email": "ffabianandres34@gmail.com",
+    "telefono": "+57 314 2008771",
+    "direccion": "Calle 36i sur #1c, Bogotá, Colombia",
+    "foto": "images/foto.jpg"
+  },
+  "perfil": "Actualmente curso el décimo semestre de Ingeniería Catastral y Geodesia. Tengo experiencia en el manejo de software GIS, como ArcGIS y QGIS, así como en software de diseño, como AutoCAD, en diversas versiones. Poseo conocimientos intermedios en la conceptualización de estructuras de datos espaciales y programación, utilizando lenguajes como Python y JavaScript, enfocados en el desarrollo de proyectos de gestión de información geográfica y catastral. Cuento tambien con experiencia en la gestión de bases de datos, utilizando administradores como PgAdmin en esquemas de PostgreSQL; Así como el análisis de datos en software cientifico como R, Rstudio, Mathlab y Jupyter Notebook. Me destaco en el análisis y resolución de problemas, con un enfoque en la obtención de resultados rápidos y de fácil implementación. He tenido la oprtunidad de poner en practica mis habilidaddes en proyectos reales de Conservación catastral, Catastro y Saneamiento Jurídico, y Digitalización de Información Catastral, en los municipios de Zipaquirá y Chía.",
+  "formacion": [
+    {
+      "titulo": "Ingeniero Catastral y Geodesta",
+      "institucion": "Universidad Distrital Francisco Jose de Caldas",
+      "año": "2026",
+      "descripcion": "Graduado en marzo de 2026 y actualmente trabajando en procesos de actualizacion catastral como contratista en ENINCO S.A."
+    },
+    {
+      "titulo": "Curso Reconocedor Predial Urbano Rural para procesos de conservacion catastral",
+      "institucion": "Instituto Geográfico Agustín Codazzi",
+      "año": "2024",
+      "descripcion": "Duración de 40 horas conforme a los programas del Instituto Geográfico Agustín Codazzi."
+    },
+    {
+      "titulo": "Desafío SIG desde cero Biodiversidad y Medio Ambiente",
+      "institucion": "Instituto CAEG",
+      "año": "2023",
+      "descripcion": "Introducción al Modelado de Nicho Ecológico y Geoportales, análisis visual con Google Earth Engine, ArcGIS y QGIS, y análisis exploratorio de datos con R."
+    },
+    {
+      "titulo": "Curso Reconocedor Predial Urbano Rural",
+      "institucion": "Instituto Geográfico Agustín Codazzi",
+      "año": "2022",
+      "descripcion": "Duración de 40 horas conforme a los programas del Instituto Geográfico Agustín Codazzi."
+    },
+    {
+      "titulo": "Bachiller Académico",
+      "institucion": "Colegio San Isidro Sur Oriental I.E.D",
+      "año": "2018",
+      "descripcion": "Graduado con modalidad media fortalecida con cursos de la Universidad Nacional en Cálculo, Robótica y Gestión de Proyectos."
+    }
+  ],
+  "experiencia": [
+    {
+      "puesto": "Contratista, Coordinador Operativo en procesos de actualización catastral",
+      "empresa": "ENINCO S.A",
+      "periodo": "Febrero 2026 - Julio 2026",
+      "descripcion": "Prestación de servicios como Coordinador Operativo en procesos de actualización catastral en el municipio Cimitarra."
+    },
+    {
+      "puesto": "Contratista, reconocedor predial integral en procesos de actualización catastral",
+      "empresa": "ENINCO S.A",
+      "periodo": "Diciembre 2025 - Febrero 2026",
+      "descripcion": "Prestación de servicios como reconocedor predial integral en procesos de actualización catastral en el municipios de Sabana de Torres, Puerto Wilches y Cimitarra."
+    },
+    {
+      "puesto": "Contratista, reconocedor predial integral en Conservación",
+      "empresa": "Instituto Geográfico AGustin Codazzi",
+      "periodo": "Junio 2025 - Diciembre 2025",
+      "descripcion": "Ejecutor integral en procesos de conservación catastral."
+    },
+    {
+      "puesto": "Contratista, Digitalizador 2D y 3D",
+      "empresa": "Instituto Geográfico AGustin Codazzi",
+      "periodo": "Marzo 2025 - Junio 2025",
+      "descripcion": "Digitalización de información cartográfica en 2D y 3D."
+    },
+    {
+      "puesto": "Contratista, reconocedor predial integral en Conservación",
+      "empresa": "ENINCO S.A",
+      "periodo": "Agosto 2024 - Abril 2025",
+      "descripcion": "Ejecutor integral en proyectos de conservación catastral."
+    },
+    {
+      "puesto": "Pasante de Ingeniería",
+      "empresa": "Ingenieria Gestión Predial y Catastro-INGICAT S.A",
+      "periodo": "Abril 2024 - Abril 2025",
+      "descripcion": "Pasantía en gestión predial y conservación catastral."
+    },
+    {
+      "puesto": "Auxiliar en Topografía",
+      "empresa": "Sub-Contratación Fabian Sanabria",
+      "periodo": "Agosto 2022 - Febrero 2023",
+      "descripcion": "Apoyo en levantamientos topográficos y cartografía base."
+    },
+    {
+      "puesto": "Auxiliar en Cartografía",
+      "empresa": "Sub-Contratación Jeimy Diaz",
+      "periodo": "Marzo 2023 - Junio 2023",
+      "descripcion": "Desarrollo de cartografía base y temática con ArcGIS usando aerofotografías escala 1:25000."
+    }
+  ],
+  "proyectos": [
+    {
+      "nombre": "Sistema para la Gestión de la Información Catastral, SIICA",
+      "descripcion": "Sistema integral para gestión de información catastral municipal.",
+      "repositorio": "https://github.com/fabiow1010/INGICAT",
+      "video": "https://youtu.be/eF7ift2Bv1A"
+    },
+    {
+      "nombre": "Aplicativo web para la Gestión Documental",
+      "descripcion": "Plataforma web para digitalización y gestión de documentos catastrales.",
+      "repositorio": "https://github.com/fabiow1010/INGICAT",
+      "video": "https://youtu.be/eF7ift2Bv1A"
+    },
+    {
+      "nombre": "Aplicativo para alistamiento de información para levantamientos geodésicos haciendo uso de web scraping.",
+      "descripcion": "Este proyecto permite descargar, procesar y analizar archivos de efemérides GNSS y coordenadas de estaciones, integrando varios scripts en Python para automatizar todo el flujo de trabajo.",
+      "repositorio": "https://github.com/fabiow1010/webscrapin",
+      "video": ""
+    },
+    {
+      "nombre": "Análisis y ajuste de librerías de GNSSTK para su uso en procesamiento de datos GNSS",
+      "descripcion": "Este repositorio contiene herramientas y scripts para el procesamiento y análisis de datos GNSS (Global Navigation Satellite System).",
+      "repositorio": "https://github.com/fabiow1010/gnss_data",
+      "video": ""
+    }
+  ],
+  "referencias": [
+    {
+      "nombre": "Ing. Jeimy Díaz",
+      "puesto": "Jefa Directa",
+      "empresa": "Sub-Contratación",
+      "descripcion": "Asignaba y validaba calidad de las entregas."
+    },
+    {
+      "nombre": "Ing. Fabian Sanabria",
+      "puesto": "Jefe Directo",
+      "empresa": "Sub-Contratación",
+      "descripcion": "Asignaba y validaba calidad de las entregas."
+    },
+    {
+      "nombre": "Ing. Oscar Giraldo",
+      "puesto": "Gerente de Ingeniería",
+      "empresa": "Gestión Inmobiliaria y Catastro S.A.S",
+      "descripcion": "Director Externo de Pasantía, Gerente de la empresa."
+    },
+    {
+      "nombre": "Ing. Juliana Forero",
+      "puesto": "Directora de Proyecto",
+      "empresa": "ENINCO S.A",
+      "descripcion": "Directora de Proyecto de Conservación Catastral."
+    },
+    {
+      "nombre": "Ing. David Riveros",
+      "puesto": "Coordinador Proyecto",
+      "empresa": "Instituto Geográfico Agustin Codazzi",
+      "descripcion": "Coordinador Proyecto ColSmart."
+    },   
+    {
+      "nombre": "Ing. Cristian Rodriguez",
+      "puesto": "Coordinador",
+      "empresa": "Instituto Geográfico Agustin Codazzi Territorial de Cundinamarca",
+      "descripcion": "Coordinador y Control de Calidad."
+    },
+    {
+      "nombre": "Ing. Ingrid Cifuentes",
+      "puesto": "Gerente proyecto de actualizacion castastral Lote 2",
+      "empresa": "ENINCO S.A",
+      "descripcion": "Directora de Proyecto de Actualización Catastral Lote 2."
+    }
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "nivel": "Nativo"
+    },
+    {
+      "idioma": "Inglés",
+      "nivel": "Intermedio (B2)"
+    }
+  ]
+}
