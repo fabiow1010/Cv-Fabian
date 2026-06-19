@@ -1,7 +1,8 @@
 // Cargar datos del JSON y renderizar
 async function loadCVData() {
   try {
-    const response = await fetch('data.json');
+    const cacheBuster = Date.now();
+    const response = await fetch(`data.json?t=${cacheBuster}`, { cache: 'no-store' });
     const data = await response.json();
     
     renderPerfil(data.perfil);

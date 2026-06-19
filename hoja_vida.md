@@ -18,7 +18,7 @@ He tenido la oprtunidad de poner en practica mis habilidaddes en proyectos reale
 Conservación catastral, Catastro y Saneamiento Jurídico, y Digitalización de Información Catastral, en los municipios de Zipaquirá y Chía.
 
 ## Formación académica
-- **Ingeniería Catastral y Geodesia**, Universidad Distrital Francisco Jose de Caldas, 2025 
+- **Ingeniería Catastral y Geodesia**, Universidad Distrital Francisco Jose de Caldas, 2026 
 - **Curso Reconocedor Predial Urbano Rural para procesos de conservacion catastral**, Instituto Geográfico Agustín Codazzi,  2024 
 - **Desafío SIG desde cero Biodiversidad y Medio Ambiente**, Instituto CAEG, 2023
 - **Curso Reconocedor Predial Urbano Rural**, Instituto Geográfico Agustín Codazzi 2022
@@ -33,7 +33,7 @@ Conservación catastral, Catastro y Saneamiento Jurídico, y Digitalización de 
 - Contratista, Digitalziador 2D y 3D, Instituto Geográfico AGustin Codazzi, Marzo 2025 - Junio 2025
 - Contratista, Reconocedor Integral en Conservación,Instituto Geográfico AGustin Codazzi, Junio 2025 - Diciembre 2025.
 - Contratista, Reconocedor Integral en Procesos de Actualizacion, ENINCO S.A, Diciembre 2025 - Febrero  15 de 2026
-- Contratista, Reconocedor Integral en Procesos de Actualizacion, ENINCO S.A, Febrero 15 2026 - Junio 30 de 2026
+- Contratista, Coordinador Operativo en Procesos de Actualizacion, ENINCO S.A, Febrero 15 2026 - Junio 30 de 2026
 
 ## Proyectos
 1. Sistema para la Gestión de la Información Catastral, SIICA.
