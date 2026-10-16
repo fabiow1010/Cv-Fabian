@@ -106,13 +106,13 @@
                 if (!response.ok) throw new Error("No se pudo cargar el archivo Markdown.");
                 const md = await response.text();
                 const html = marked.parse(md);
+                const baseUrl = new URL("./", window.location.href).href;
 
                 const frame = document.getElementById('print-frame');
 
                 // Evita que el evento se dispare antes de tiempo
                 frame.onload = () => {
-                    frame.contentWindow.focus();
-                    frame.contentWindow.print();
+                    setTimeout(() => { frame.contentWindow.focus(); frame.contentWindow.print(); }, 250);
                 };
 
                 const doc = frame.contentDocument || frame.contentWindow.document;
@@ -120,6 +120,7 @@
                 doc.write(`
                 <html>
                 <head>
+                    <base href="${baseUrl}">
                     <link rel="stylesheet" href="cv-style.css">
                     <style>
                         @media print {

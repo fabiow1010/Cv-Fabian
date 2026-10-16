@@ -31,13 +31,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Generar Markdown desde data.json
+        run: python3 generar_md.py
+      - name: Preparar sitio público
+        run: |
+          mkdir -p _site
+          cp index.html script.js cv-style.css data.json hoja_vida.md _site/
+          cp -r images _site/images
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: '.'
+          path: '_site'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

@@ -7,13 +7,19 @@
     "direccion": "Calle 36i sur #1c, Bogotá, Colombia",
     "foto": "images/foto.jpg"
   },
-  "perfil": "Ingeniero Catastral y Geodesta. Tengo experiencia en el manejo de software GIS, como ArcGIS y QGIS, así como en software de diseño, como AutoCAD, en diversas versiones. Poseo conocimientos intermedios en la conceptualización de estructuras de datos espaciales y programación, utilizando lenguajes como Python y JavaScript, enfocados en el desarrollo de proyectos de gestión de información geográfica y catastral. Cuento tambien con experiencia en la gestión de bases de datos, utilizando administradores como PgAdmin en esquemas de PostgreSQL; Así como el análisis de datos en software cientifico como R, Rstudio, Mathlab y Jupyter Notebook. Me destaco en el análisis y resolución de problemas, con un enfoque en la obtención de resultados rápidos y de fácil implementación. He tenido la oprtunidad de poner en practica mis habilidaddes en proyectos reales de Conservación y Actualización Catastral, Catastro y Saneamiento Jurídico, y Digitalización de Información Catastral, así como reconcimiento predial integral en los municipios de Zipaquirá, Chía, Sabana de Torres, Hato Corosal, Caucasia y Cimitarra.",
+  "perfil": "Ingeniero Catastral y Geodesta., Aspirante a especialista en Dirección y Gestión de Proyectos. Tengo experiencia en el manejo de software GIS, como ArcGIS y QGIS, así como en software de diseño, como AutoCAD, en diversas versiones. Poseo conocimientos intermedios en la conceptualización de estructuras de datos espaciales y programación, utilizando lenguajes como Python y JavaScript, enfocados en el desarrollo de proyectos de gestión de información geográfica y catastral. Cuento tambien con experiencia en la gestión de bases de datos, utilizando administradores como PgAdmin en esquemas de PostgreSQL; Así como el análisis de datos en software cientifico como R, Rstudio, Mathlab y Jupyter Notebook. Me destaco en el análisis y resolución de problemas, con un enfoque en la obtención de resultados rápidos y de fácil implementación. He tenido la oprtunidad de poner en practica mis habilidaddes en proyectos reales de Conservación y Actualización Catastral, Catastro y Saneamiento Jurídico, y Digitalización de Información Catastral, así como reconcimiento predial integral en los municipios de Zipaquirá, Chía, Sabana de Torres, Caucasia y Cimitarra.",
   "formacion": [
     {
       "titulo": "Ingeniero Catastral y Geodesta",
       "institucion": "Universidad Distrital Francisco Jose de Caldas",
       "año": "2026",
       "descripcion": "Graduado en marzo de 2026 y actualmente trabajando en procesos de actualizacion catastral como contratista en ENINCO S.A."
+    },
+    {
+      "titulo": "Estudiante Especialización en Dirección y Gestión de Proyectos",
+      "institucion": " UNIR-Colombia",
+      "año": "2026",
+      "descripcion": "Actualmente matriculado en el proyecto académico Especialización en Dirección y Gestión de Proyectos dictado por la universidad UNIR-Colombia en convenio con la universidad de la RIOJA."
     },
     {
       "titulo": "Curso Reconocedor Predial Urbano Rural para procesos de conservacion catastral",
@@ -41,6 +47,12 @@
     }
   ],
   "experiencia": [
+    {
+      "puesto": "Contratista, Líder de Reconocimiento Predial",
+      "empresa": "ENINCO S.A",
+      "periodo": "Agosto 2026 - Octubre 2026",
+      "descripcion": "Apoyo técnico en procesos de gestión y actualización catastral, mediante el análisis, validación y depuración de información física, jurídica y alfanumérica de predios. Revisión de matrículas inmobiliarias, antecedentes registrales y trámites de conservación catastral, incluyendo desenglobes, englobes y mutaciones. Manejo de bases de datos geográficas y alfanuméricas mediante PostgreSQL, SQL, QGIS y Python, elaboración de reportes técnicos, control de calidad de la información y seguimiento a requerimientos, garantizando la consistencia de los datos y el cumplimiento de los lineamientos técnicos y normativos del IGAC."
+    },
     {
       "puesto": "Contratista, Coordinador Operativo en procesos de actualización catastral",
       "empresa": "ENINCO S.A",
@@ -98,6 +110,12 @@
       "video": "https://youtu.be/eF7ift2Bv1A"
     },
     {
+      "nombre": "VUR-SCRAPING",
+      "descripcion": "Aplicativo de escritorio para Windows que dado un archivo en formato csv con las matriculas inmobiliarias relacionadas y el posterior ingreso de las credenciales de acceso a la ventanilla única de registro realiza la descarga automatizada de la información asociada a cada matricula, datos básicos y datos jurídicos. Entrega el reporte en un archivo Excel  así como un archivo de formato HTML en donde une informacion de datos basicos y jurídicos en un árbol desplegable.",
+      "repositorio": "",
+      "video": ""
+    },
+    {
       "nombre": "Aplicativo web para la Gestión Documental",
       "descripcion": "Plataforma web para digitalización y gestión de documentos catastrales.",
       "repositorio": "https://github.com/fabiow1010/INGICAT",
@@ -118,16 +136,10 @@
   ],
   "referencias": [
     {
-      "nombre": "Ing. Jeimy Díaz",
-      "puesto": "Jefa Directa",
-      "empresa": "Sub-Contratación",
-      "descripcion": "Asignaba y validaba calidad de las entregas."
-    },
-    {
-      "nombre": "Ing. Fabian Sanabria",
-      "puesto": "Jefe Directo",
-      "empresa": "Sub-Contratación",
-      "descripcion": "Asignaba y validaba calidad de las entregas."
+      "nombre": "Ing. Ingrid Cifuentes",
+      "puesto": "Gerente proyecto de actualizacion castastral Lote 2",
+      "empresa": "ENINCO S.A",
+      "descripcion": "Directora de Proyecto de Actualización Catastral Lote 2."
     },
     {
       "nombre": "Ing. Oscar Giraldo",
@@ -136,28 +148,28 @@
       "descripcion": "Director Externo de Pasantía, Gerente de la empresa."
     },
     {
-      "nombre": "Ing. Juliana Forero",
-      "puesto": "Directora de Proyecto",
-      "empresa": "ENINCO S.A",
-      "descripcion": "Directora de Proyecto de Conservación Catastral."
-    },
-    {
-      "nombre": "Ing. David Riveros",
-      "puesto": "Coordinador Proyecto",
-      "empresa": "Instituto Geográfico Agustin Codazzi",
-      "descripcion": "Coordinador Proyecto ColSmart."
-    },
-    {
       "nombre": "Ing. Cristian Rodriguez",
       "puesto": "Coordinador",
       "empresa": "Instituto Geográfico Agustin Codazzi Territorial de Cundinamarca",
       "descripcion": "Coordinador y Control de Calidad."
     },
     {
-      "nombre": "Ing. Ingrid Cifuentes",
-      "puesto": "Gerente proyecto de actualizacion castastral Lote 2",
+      "nombre": "Ing. Juliana Forero",
+      "puesto": "Directora de Proyecto",
       "empresa": "ENINCO S.A",
-      "descripcion": "Directora de Proyecto de Actualización Catastral Lote 2."
+      "descripcion": "Directora de Proyecto de Conservación Catastral."
+    },
+    {
+      "nombre": "Ing. Fabian Sanabria",
+      "puesto": "Jefe Directo",
+      "empresa": "Sub-Contratación",
+      "descripcion": "Asignaba y validaba calidad de las entregas."
+    },
+    {
+      "nombre": "Ing. Jeimy Díaz",
+      "puesto": "Jefa Directa",
+      "empresa": "Sub-Contratación",
+      "descripcion": "Asignaba y validaba calidad de las entregas."
     }
   ],
   "idiomas": [
@@ -167,7 +179,7 @@
     },
     {
       "idioma": "Inglés",
-      "nivel": "Intermedio (B2)"
+      "nivel": "Intermedio (B1)"
     }
   ]
 }

@@ -1,157 +1,38 @@
-# Guía de Uso - CV Dinámico
+# CV dinámica — guía rápida
 
-## Estructura
+## Editar desde tu equipo
 
-Tu CV ahora funciona con un sistema dinámico basado en JSON. Todos los datos se cargan automáticamente desde el archivo `data.json`.
+1. Instala Python 3 si aún no lo tienes.
+2. Abre una terminal en la carpeta del proyecto.
+3. Ejecuta `python editor_local.py` (Windows también puede usar `py editor_local.py`).
+4. Abre `http://127.0.0.1:8765/editor.html` si no se abrió automáticamente.
+5. En las pestañas **Experiencias**, **Proyectos**, **Referencias**, **Formación**, **Idiomas**, **Información personal** y **Perfil**, crea, edita, borra o reordena registros.
+6. Pulsa **Guardar JSON y Markdown**. Esto actualiza a la vez `data.json` y `hoja_vida.md`.
+7. Revisa tu página con el botón **Ver página**.
+8. Publica los cambios con Git:
 
-### Archivos principales:
-
-- **data.json** - Contiene toda la información de tu CV en formato estructurado
-- **index.html** - Plantilla HTML que carga los datos dinámicamente
-- **script.js** - Script que procesa el JSON y renderiza el contenido
-- **cv-style.css** - Estilos para impresión
-- **hoja_vida.md** - Versión Markdown (opcional, para impresión)
-
-## Cómo agregar nuevos items
-
-### 1. Agregar una nueva formación académica
-
-Abre `data.json` y busca la sección `"formacion"`. Agrega un nuevo objeto dentro del array:
-
-```json
-{
-  "titulo": "Nombre del curso/carrera",
-  "institucion": "Nombre de la institución",
-  "año": "2025",
-  "descripcion": "Breve descripción del programa"
-}
+```bash
+git add data.json hoja_vida.md
+git commit -m "Actualizar hoja de vida"
+git push origin Menu
 ```
 
-### 2. Agregar nueva experiencia laboral
+GitHub Actions publica la versión actualizada en GitHub Pages cuando llega un push a la rama `Menu`.
 
-En la sección `"experiencia"` del archivo `data.json`:
+## Fuente de verdad
 
-```json
-{
-  "puesto": "Tu puesto",
-  "empresa": "Nombre de la empresa",
-  "periodo": "Mes Año - Mes Año",
-  "descripcion": "Descripción breve de tus funciones"
-}
-```
+- `data.json` es la única fuente editable de información.
+- `script.js` dibuja la CV pública a partir de `data.json`.
+- `generar_md.py` regenera `hoja_vida.md`.
+- El botón **Imprimir Hoja de Vida** usa el archivo Markdown generado para abrir la impresión del navegador; allí puedes elegir **Guardar como PDF**.
+- El workflow también ejecuta `python3 generar_md.py` antes de publicar para evitar versiones desactualizadas en línea.
 
-### 3. Agregar un nuevo proyecto
+## Regenerar sin editor
 
-En la sección `"proyectos"`:
+Si editas `data.json` manualmente, ejecuta `python generar_md.py` antes de hacer commit. Puedes cambiar las descripciones y agregar cuantos registros necesites sin editar HTML.
 
-```json
-{
-  "nombre": "Nombre del proyecto",
-  "descripcion": "Descripción del proyecto y tecnologías utilizadas",
-  "repositorio": "https://github.com/usuario/repo",
-  "video": "https://www.youtube.com/watch?v=xxxxx"
-}
-```
+## Seguridad y limitaciones
 
-**Campos opcionales:**
-- `"repositorio"` - Link al repositorio (GitHub, GitLab, etc.) - dejar vacío `""` si no aplica
-- `"video"` - Link al video o demostración (YouTube, Vimeo, etc.) - dejar vacío `""` si no aplica
+El editor local se escucha solo en `127.0.0.1` y no se incluye en el sitio publicado por Pages. No requiere credenciales ni tiene una API pública para escribir información. **Guardar** modifica archivos en tu PC, no hace automáticamente un commit ni un push. Debes subir los cambios a GitHub para verlos en línea.
 
-### 4. Agregar una nueva referencia
-
-En la sección `"referencias"`:
-
-```json
-{
-  "nombre": "Nombre completo",
-  "puesto": "Su posición en la empresa",
-  "empresa": "Nombre de la empresa",
-  "descripcion": "Su rol o relación contigo"
-}
-```
-
-### 5. Agregar un idioma
-
-En la sección `"idiomas"`:
-
-```json
-{
-  "idioma": "Nombre del idioma",
-  "nivel": "Nivel de dominio (ej: Nativo, Intermedio, Avanzado)"
-}
-```
-
-## Editar información personal
-
-En la sección `"personal"` del archivo `data.json`:
-
-```json
-"personal": {
-  "nombre": "Tu nombre completo",
-  "titulo": "Tu título profesional",
-  "email": "tu@email.com",
-  "telefono": "+57 XXX XXXXXXX",
-  "direccion": "Tu dirección",
-  "foto": "images/foto.jpg"
-}
-```
-
-## Editar perfil profesional
-
-Encuentra la sección `"perfil"` y actualiza el texto completo con tu descripción.
-
-## Estructura del data.json
-
-```json
-{
-  "personal": { /* Tu información */ },
-  "perfil": "Tu descripción profesional",
-  "formacion": [ /* Array de estudios */ ],
-  "experiencia": [ /* Array de trabajos */ ],
-  "proyectos": [ /* Array de proyectos */ ],
-  "referencias": [ /* Array de referencias */ ],
-  "idiomas": [ /* Array de idiomas */ ]
-}
-```
-
-## Características
-
-- ✅ Cargando dinámico de datos
-- ✅ No requiere editar HTML
-- ✅ Fácil de expandir
-- ✅ Compatible con Bootstrap
-- ✅ Diseño responsivo
-- ✅ Opción de impresión en PDF
-
-## Tips
-
-1. Mantén los campos de texto concisos y relevantes
-2. Usa líneas vacías entre puntos en descripciones para mejor legibilidad
-3. Verifica el navegador (F12) si algo no se carga correctamente
-4. El orden en el JSON determina el orden en la página
-5. Puedes tener tantos items como necesites en cada sección
-
-## Estructura recomendada del JSON
-
-```json
-{
-  "personal": {
-    "nombre": "Nombre Completo",
-    "titulo": "Tu Título",
-    "email": "email@example.com",
-    "telefono": "+57 XXX XXXXXXX",
-    "direccion": "Dirección completa",
-    "foto": "images/foto.jpg"
-  },
-  "perfil": "Texto de perfil...",
-  "formacion": [...],
-  "experiencia": [...],
-  "proyectos": [...],
-  "referencias": [...],
-  "idiomas": [...]
-}
-```
-
----
-
-**Nota:** Asegúrate de guardar los cambios en `data.json` y recarga la página del navegador (Ctrl+R) para ver los cambios actualizados.
+Para cerrar el editor, usa `Ctrl+C` en la terminal. Si el puerto 8765 está ocupado, detén el otro proceso que lo está usando.
